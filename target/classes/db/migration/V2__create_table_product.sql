@@ -1,0 +1,8 @@
+CREATE TABLE IF NOT EXISTS public.product (
+    id BIGSERIAL PRIMARY KEY,
+    name VARCHAR(255) NOT NULL,
+    category VARCHAR(255),
+    price DOUBLE PRECISION,
+    quantity DOUBLE PRECISION
+);
+
